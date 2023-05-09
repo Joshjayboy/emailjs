@@ -11,10 +11,10 @@ function App() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_qxeqd89",
+        "template_fhoh4po",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "7GMSf47wV74vUrubO"
       )
       .then(
         (result) => {
